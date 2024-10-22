@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const About = () => {
   return (
-    <section id="about" className="py-20">
+    <section id="about" className="py-20 animate-fadeIn">
       <h2 className="text-3xl font-bold mb-8 text-center">Sobre mí</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card>
@@ -20,17 +20,17 @@ const About = () => {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle>Educación</CardTitle>
+            <CardTitle>Experiencia</CardTitle>
           </CardHeader>
           <CardContent>
             <ul className="list-disc pl-5">
               <li>
-                Técnico Superior en Desarrollo de aplicaciones Web <br />
-                <em>Ilerna Online</em>
+                Varios proyectos personales, puedes ver algunos más abajo y el
+                resto en mi GitHub.
               </li>
               <li>
-                Ingeniería en Tecnologías de Telecomunicación <br />
-                (Sin finalizar)
+                Actualmente realizando las prácticas del grado, utilizando
+                sobretodo Symfony y SQL Server.
               </li>
             </ul>
           </CardContent>

@@ -62,6 +62,14 @@ const config: Config = {
         },
       },
       keyframes: {
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+        slideInFade: {
+          '0%': { opacity: 0, transform: 'translateX(-50px)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
         'accordion-down': {
           from: {
             height: '0',
@@ -80,6 +88,8 @@ const config: Config = {
         },
       },
       animation: {
+        fadeIn: 'fadeIn 2.5s ease-in forwards',
+        slideInFade: 'slideInFade 0.5s ease-out forwards',
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },

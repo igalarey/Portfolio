@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 animate-fadeIn">
       <h2 className="text-3xl font-bold mb-8 text-center">Contacto</h2>
       <form onSubmit={handleSubmit} className="max-w-3xl mx-auto">
         <div className="mb-4">

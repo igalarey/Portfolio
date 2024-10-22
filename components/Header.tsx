@@ -7,7 +7,6 @@ import { Menu, X } from 'lucide-react';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Función para hacer scroll suave
   const handleSmoothScroll = (event: React.MouseEvent, targetId: string) => {
     event.preventDefault();
     const targetElement = document.querySelector(targetId);
@@ -20,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <header className="py-6 px-4 sm:px-6 lg:px-8">
+    <header className="py-6 px-4 sm:px-6 lg:px-8 animate-fadeIn">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <a href="/" className="text-2xl font-bold">
           Imanol Galarza
