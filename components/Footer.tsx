@@ -20,14 +20,6 @@ const Footer = () => {
           >
             LinkedIn
           </a>
-          <a
-            href="https://www.behance.net/igalarey"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-primary"
-          >
-            Behance
-          </a>
         </div>
       </div>
     </footer>
