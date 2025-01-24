@@ -29,7 +29,7 @@ const About = () => {
                 resto en mi GitHub.
               </li>
               <li>
-                Actualmente realizando las prácticas del grado, utilizando
+                Prácticas de grado utilizando
                 sobretodo Symfony y SQL Server.
               </li>
             </ul>

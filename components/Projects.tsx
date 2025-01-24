@@ -20,15 +20,15 @@ const projects = [
     title: 'Gestor de tareas',
     description: 'Gestor de tareas estilo Kanban',
     technologies: ['JavaScript', 'SASS', 'MySQL'],
-    liveUrl: 'https://project3.com',
+    liveUrl: 'https://#',
     githubUrl: 'https://github.com/igalarey/gestion-proyectos',
   },
   {
     title: 'Formulario Login',
     description: 'Sistema de inicio de sesión y registro',
     technologies: ['Symfony', 'SQL Server', 'Bootstrap'],
-    liveUrl: 'https://project2.com',
-    githubUrl: 'https://github.com/yourusername/project2',
+    liveUrl: 'https://#',
+    githubUrl: 'https://#',
   },
 ];
 
